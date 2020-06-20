@@ -17,6 +17,12 @@
             font-size: 100px;
             font-weight: 600;
             line-height: 80px;
+            @media (min-width: 320px) and (max-width: 992px){
+                font-size: 50px;
+                position: absolute;
+                top: 0;
+                line-height: 45px;
+            }
             .title-especial{
                 font-size: 2rem;
                 font-weight: 300;
@@ -29,6 +35,11 @@
             position: absolute;
             right: 0;
             bottom: -60px;
+            @media (min-width: 320px) and (max-width: 992px){
+                top: 100px;
+                position: relative;
+                margin: 0 auto;
+            }
             .img-header{
                 width: 460px;
             }
@@ -36,12 +47,20 @@
                 position: absolute;
                 left: -100px;
                 top: 100px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    left: inherit;
+                    right: 0;
+                    top: 30px;
+                }
                 .description{
                     font-size: 1.688rem;
                     padding: 7px 10px 4px 10px;
                     background-color: $gamer-purple;
                     margin: 0;
                     display: inline-block;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        font-size: 1rem;
+                    }
                 }
                 .price{
                     font-size: 3.25rem;
@@ -49,6 +68,9 @@
                     padding: 7px 10px 4px 10px;
                     background-color: $gamer-purple;
                     margin: 0;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        font-size: 1.875rem;
+                    }
                 }
                 .offer_btn{
                     font-size: 1.5rem;

@@ -30,6 +30,14 @@ body {
   font-weight: 600;
   line-height: 80px;
 }
+@media (min-width: 320px) and (max-width: 992px) {
+  .header-offer .container-header h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    line-height: 45px;
+  }
+}
 .header-offer .container-header h1 .title-especial {
   font-size: 2rem;
   font-weight: 300;
@@ -42,6 +50,13 @@ body {
   right: 0;
   bottom: -60px;
 }
+@media (min-width: 320px) and (max-width: 992px) {
+  .header-offer .container-header .container-offer {
+    top: 100px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
 .header-offer .container-header .container-offer .img-header {
   width: 460px;
 }
@@ -50,6 +65,13 @@ body {
   left: -100px;
   top: 100px;
 }
+@media (min-width: 320px) and (max-width: 992px) {
+  .header-offer .container-header .container-offer .container-description {
+    left: inherit;
+    right: 0;
+    top: 30px;
+  }
+}
 .header-offer .container-header .container-offer .container-description .description {
   font-size: 1.688rem;
   padding: 7px 10px 4px 10px;
@@ -57,12 +79,22 @@ body {
   margin: 0;
   display: inline-block;
 }
+@media (min-width: 320px) and (max-width: 992px) {
+  .header-offer .container-header .container-offer .container-description .description {
+    font-size: 1rem;
+  }
+}
 .header-offer .container-header .container-offer .container-description .price {
   font-size: 3.25rem;
   font-weight: 800;
   padding: 7px 10px 4px 10px;
   background-color: #A01E96;
   margin: 0;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .header-offer .container-header .container-offer .container-description .price {
+    font-size: 1.875rem;
+  }
 }
 .header-offer .container-header .container-offer .container-description .offer_btn {
   font-size: 1.5rem;
